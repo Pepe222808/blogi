@@ -258,3 +258,50 @@ div#content h2{
     margin-top: 300px;
   }
 }
+
+@media screen and (max-width:720px){
+  header h1{
+    display: none;
+  }
+  aside{
+    display: none;
+  }
+  div#content{
+    height: 1800px;
+    width: 95%;
+  }
+
+  section#główna{
+    float: right;
+    width: 90%;
+    left: 0;
+    padding: 15px;
+  }
+
+  section#główna div{
+    height: 180px;
+    margin: 15px;
+ }
+
+
+  section#polecane{
+    margin-top: 180px;
+  }
+}
+
+
+@media screen and (max-width:500px){
+  div#content{
+    height: 1930px;
+    width: 95%;
+  }
+
+  section#główna div{
+    height: 200px;
+    margin: 15px;
+ }
+
+  section#polecane{
+    margin-top: 350px;
+  }
+}
